@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+div.logo img {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+content img {
+    width: 100%;
+    margin-top: 1%;
+}
+
+div.garantia img {
+    width: 50%;
+    float: right;
+}
+
+div.comments img {
+    width: 43.3%;
+    margin-left: 4.5%;
+}
+
+div.text p {
+    margin-top: 8%;
+    background-color: rgb(153, 217, 234);
+    padding: 15% 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+
+    padding: 2% 7%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+
+    margin-left: 35.5%;
+    margin-top: 15%;
+    
+}
+
+div.benef {
+    background-color: rgb(153, 217, 234);
+    margin-top: 15%;
+    padding: 10% 10%;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+div.benef2 {
+    margin-top: 10%;
+}
+
+.button-buy {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+
+    padding: 2% 7%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+
+    margin-left: 35.5%;
+    margin-top: 20%;
+    margin-bottom: 18%;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .button-buy {
+        margin-left: 32%;
+    }
+
+    .button {
+        margin-left: 32%;
+    }
+
+    div.text p {
+        font-size: 20px;
+    }
+
+    div.benef {
+        font-size: 15px;
+    }
+}
